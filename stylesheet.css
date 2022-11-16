@@ -1,0 +1,17 @@
+body {
+  margin: auto;
+  width: 600px;
+}
+
+html {
+  background-color: silver;
+}
+
+img {
+  height: 250px;
+}
+
+div.menu {
+  display: flex;
+  flex-direction: row-reverse;
+}
