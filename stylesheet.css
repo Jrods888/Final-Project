@@ -56,6 +56,20 @@ div.tacos {
   border-style: solid;
 }
 
+div.dessert {
+  text-align: center;
+  font-size: large;
+  border: 2px;
+  border-style: solid;
+}
+
+div.sake {
+  text-align: center;
+  font-size: large;
+  border: 2px;
+  border-style: solid;
+}
+
 a:hover {
   font-family: sans-serif;
   font-size: larger;
@@ -68,4 +82,8 @@ ul {
 
 img {
   padding: 15px;
+}
+
+div.jal {
+  display: flex;
 }
