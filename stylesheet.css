@@ -12,6 +12,60 @@ img {
 }
 
 div.menu {
-  display: flex;
-  flex-direction: row-reverse;
+  text-align: center;
+}
+
+div.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  text-align: center;
+}
+
+div.cocktails {
+  text-align: center;
+  font-size: large;
+  border: 2px;
+  border-style: solid;
+}
+
+div.beer {
+  text-align: center;
+  font-size: large;
+  border: 2px;
+  border-style: solid;
+}
+
+div.apps {
+  text-align: center;
+  font-size: large;
+  border: 2px;
+  border-style: solid;
+}
+
+div.sushi {
+  text-align: center;
+  font-size: large;
+  border: 2px;
+  border-style: solid;
+}
+
+div.tacos {
+  text-align: center;
+  font-size: large;
+  border: 2px;
+  border-style: solid;
+}
+
+a:hover {
+  font-family: sans-serif;
+  font-size: larger;
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  padding: 15px;
 }
