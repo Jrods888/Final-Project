@@ -4,67 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="stylesheet2.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="links">
       <nav>
         <ul>
-          <a href="food.html">
-            <li>Dinner Menu</li>
-          </a>
-          <a href="desserts.html">
-            <li>Dessert Menu</li>
-          </a>
+          <li><a href="bevs.html">Beverages</a></li>
+          <li><a href="food.html">Dinner Menu</a></li>
+          <li><a href="desserts.html">Dessert Menu</a></li>
+        </ul>
+      </nav>
     </div>
     <div class="title">
       <h1>Jared's Tacos and Sushi</h1>
     </div>
-    <div class="cocktails">
-      <h2>Cocktails</h2>
+    <div class="about">
+      <h2>About us:</h2>
+      <h3>
+        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
+        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+        voluptas nulla pariatur?"
+      </h3>
     </div>
-    <div class="menu">
-      <div>
-        <h3>Jared's Big Marg</h3>
-        <p>Casamigos Repo | Grand Marnier | House-Made Sour</p>
-        <img src="Margarita.jpg" alt="Big Marg" />
-        <h3>Bubbles and Flowers</h3>
-        <p>Passion Fruit | Champagne | Hibiscus</p>
-        <h3>Oaxacan Old Fashioned</h3>
-        <p>Don Julio Repo | Amaro Liquor Apertif | Demerara Simple Syrup</p>
-        <h3>Mexican Martini</h3>
-        <p>Clase Azul Plata | Cointreau | Green Olive</p>
-        <img src="martini.jpg" />
-        <h3>Spicy Saketini</h3>
-        <p>Big Boss Sake | Roku Gin | Cucumber</p>
-        <h3>Kyoto Sour</h3>
-        <p> Gekkeikan Sake | Green Tobasco | Grapefruit</p>
-        <img src="kyotosour.jpg" />
-        <div class="beer">
-          <h2>Draught Beer</h2>
-        </div>
-        <h3>Coors Light</h3>
-        <h3>Kirin Light</h3>
-        <h3>Sapporo</h3>
-        <h3>Blue Moon</h3>
-        <h3>Modelo Especial</h3>
-        <h3>Barrio Blonde</h3>
-        <div class="sake">
-          <h2>Sake *11oz carafe*</h2>
-        </div>
-        <h3>Shichida Junmai</h3>
-        <p>Mushrooms, plum, cereal</p>
-        <h3>Dewazakura Cherry Bouquet Oka Ginjo</h3>
-        <p>Cherry Blossom, radish, apricot</p>
-        <h3>Nanbu Bijin "Southern Beauty"</h3>
-        <p>Passhionfruit, Pineapple, crisp and dry</p>
-        <h3>Yuki no Bosha "Cabin in the Snow"</h3>
-        <p>Strawberry, white pepper</p>
-        <h3>Kikusui Perfect Snow Nigori</h3>
-        <p>Coconut, cream, rice</p>
-      </div>
+    <div class="directions">
+      <p><img src="directions.jpg" height="350" width="400" /></p>
     </div>
+    <div class="container">
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
 
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
   </body>
 </html>

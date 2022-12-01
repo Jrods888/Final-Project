@@ -4,7 +4,7 @@ body {
 }
 
 html {
-  background-color: silver;
+  background-image: linear-gradient(beige, rgb(128, 160, 229), yellow);
 }
 
 img {
@@ -13,12 +13,13 @@ img {
 
 div.menu {
   text-align: center;
+  line-height: 3px;
 }
 
 div.title {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
   text-align: center;
+  font-size: 18pt;
 }
 
 div.cocktails {
@@ -72,8 +73,7 @@ div.sake {
 
 a:hover {
   font-family: sans-serif;
-  font-size: larger;
-  color: red;
+  color: black;
 }
 
 ul {
