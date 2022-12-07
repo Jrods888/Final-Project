@@ -22,49 +22,7 @@ div.title {
   font-size: 18pt;
 }
 
-div.cocktails {
-  text-align: center;
-  font-size: large;
-  border: 2px;
-  border-style: solid;
-}
-
-div.beer {
-  text-align: center;
-  font-size: large;
-  border: 2px;
-  border-style: solid;
-}
-
-div.apps {
-  text-align: center;
-  font-size: large;
-  border: 2px;
-  border-style: solid;
-}
-
-div.sushi {
-  text-align: center;
-  font-size: large;
-  border: 2px;
-  border-style: solid;
-}
-
-div.tacos {
-  text-align: center;
-  font-size: large;
-  border: 2px;
-  border-style: solid;
-}
-
-div.dessert {
-  text-align: center;
-  font-size: large;
-  border: 2px;
-  border-style: solid;
-}
-
-div.sake {
+div.stuff {
   text-align: center;
   font-size: large;
   border: 2px;
