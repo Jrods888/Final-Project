@@ -4,16 +4,21 @@ body {
 }
 
 html {
-  background-image: linear-gradient(beige, rgb(128, 160, 229), yellow);
+  background-image: linear-gradient(beige, rgb(128, 160, 229));
 }
 
 img {
   height: 250px;
+  padding: 15px;
 }
 
 div.menu {
   text-align: center;
-  line-height: 3px;
+}
+
+p + h3 {
+  margin-bottom: 0.25cm;
+  margin-top: 1cm;
 }
 
 div.title {
@@ -36,8 +41,4 @@ a:hover {
 
 nav ul {
   list-style-type: none;
-}
-
-img {
-  padding: 15px;
 }
